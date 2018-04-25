@@ -12,23 +12,22 @@
     <link href="../css/cover.css" rel="stylesheet">
   </head>
   <body>
-
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Newbies</a>
+        <a class="navbar-brand" href="../entry_newbies.jsp">Newbies</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Cities <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cities</a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Ab</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -40,7 +39,7 @@
     </header>
 
     <main role="main">
-
+    
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -49,12 +48,12 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <img class="first-slide" src="../img/mainSnack.jpg" alt="First slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <div class="carousel-caption">
+                <h1 style="font-family:courier; font-size:400%;color:black;">Discover the wonders of any town</h1>
+                <!-- <p>Something goes here</p>  -->
+                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>   -->
               </div>
             </div>
           </div>
@@ -99,21 +98,21 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <img class="rounded-circle" src="../img/faceImage1.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Scott Jacobs</h2>
+            <p>What's up, everyone?! My name is Scott and I have been living in the Seattle area for the past ten years. I have been using NEWBIES for the past two and just recently decided to become an itinerary for the platform. Reserve a tour because it will be the best for you and me.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <img class="rounded-circle" src="../img/faceImage2.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Anne Oliver</h2>
+            <p>Hello, there! I am Anne Oliver and 26 years of age, living in Los Angeles, California. I moved out here around three years ago and started using NEWBIES ever since. I loved the experience so much and what it did for me, that I decided that I wanted to share that  same joy with other users!</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <img class="rounded-circle" src="../img/faceImage3.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Alex Mills</h2>
+            <p>Just flew in to Boston? Don't know where to eat? I got you covered. If you even need a church on Sunday, I got you covered. All the places in Boston you want to see, I got you. Just reserve a day with me and experience all the fun you need.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
