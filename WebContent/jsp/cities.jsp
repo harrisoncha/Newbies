@@ -23,14 +23,14 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #f8e6e4;">
-        <a class="navbar-brand" href="../entry_newbies.jsp">Newbies</a>
+        <a class="navbar-brand" href="../jsp/entry_newbies.jsp">Newbies</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Cities <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../jsp/cities.jsp">Cities <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -47,20 +47,21 @@
       </nav>
     </header>
 
-    <main role="main" class="city_image">
+    <main role="main" class="city_image" >
+    
+ 
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
       <div id="wrapper">
-        <!-- START THE FEATURETTES -->
+      
 			<div class="city image">
 				<div class="caption_1">
 					<span class="border">New York</span><br>
-	    			<!-- New York is an urban jungle that has everything to offer to visitors. The city is home to numerous museums, parks, trendy neighborhoods and shopping streets. -->
 				</div>
 			</div>
-        <!-- /END THE FEATURETTES -->
-      </div><!-- /.container -->
+
+      </div> <!-- /.container -->
       <!-- FOOTER -->
       
     </main>

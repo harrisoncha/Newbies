@@ -14,14 +14,14 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #f8e6e4;">
-        <a class="navbar-brand" href="../entry_newbies.jsp">Newbies</a>
+        <a class="navbar-brand" href="../jsp/entry_newbies.jsp">Newbies</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Cities <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../jsp/cities.jsp">Cities <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -93,7 +93,7 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">About Us <span class="text-muted">Continued</span></h2>
+            <h2 class="featurette-heading">About Us <span class="text-muted">continued</span></h2>
             <p class="lead">NEWBIES was founded on January 22, 2015 by four undergraduate USC students majoring in CS/BA. Their main goal was to help international students adjust to living in a major city in a different country, but saw the potential it had to help more than just them. Today, we are proud to say we have five supporters!</p>
           </div>
           <div class="col-md-5 order-md-1">
@@ -106,7 +106,8 @@
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
-
+	
+	<h1 align="center">What our customers say</h1></br>
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -115,32 +116,28 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-            <div class="container">
+            <img class="first-slide" src="../img/roseGoldBackground.png" alt="First slide" style="width:100%;">
               <div class="carousel-caption">
                 <h1>"I've been using newbies ever since I moved to Los Angeles 3 years ago. It still helps me find new exciting places to explore."</h1>
                 <p>- Kristy Rodriguez</p>
                 <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>   -->
               </div>
-            </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-            <div class="container">
+            <img class="second-slide" src="../img/roseGoldBackground.png" alt="Second slide" style="width:100%;">
+
               <div class="carousel-caption">
                 <h1>"The best way to explore the city. Everyone should use this website as their guide for new cities. A #1 recommendation!"</h1>
                 <p>- ExploreAPlaceTimes</p>
               </div>
-            </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
+            <img class="third-slide" src="../img/roseGoldBackground.png" alt="Third slide" style="width:100%;">
+
               <div class="carousel-caption">
                 <h1>"If I only knew about newbies when I first moved to New York. It would have saved me so much time and trouble."</h1>
                 <p>- Alison Perkins</p>
               </div>
-            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -152,7 +149,38 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
+      
+	<hr class="featurette-divider">
+	
+	  <div class="container-fluid bg-grey">
+		  <h2 class="text-center">CONTACT</h2>
+		  <div class="row">
+		    <div class="col-sm-5">
+		      <p>Contact us and we'll get back to you within 24 hours.</p>
+		      <p><span class="glyphicon glyphicon-map-marker"></span> Los Angeles, US</p>
+		      <p><span class="glyphicon glyphicon-phone"></span> (213) 123 - 4567</p>
+		      <p><span class="glyphicon glyphicon-envelope"></span> newbies@newbies.com</p> 
+		    </div>
+		    <div class="col-sm-7">
+		      <div class="row">
+		        <div class="col-sm-6 form-group">
+		          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+		        </div>
+		        <div class="col-sm-6 form-group">
+		          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+		        </div>
+		      </div>
+		      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+		      <div class="row">
+		        <div class="col-sm-12 form-group">
+		          <button class="btn btn-default pull-right" type="submit">Send</button>
+		        </div>
+		      </div> 
+		    </div>
+		  </div>
+	</div>
+	
+	<hr class="featurette-divider">
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
