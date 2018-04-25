@@ -10,6 +10,15 @@
     
     <!-- Custom styles for this template -->
     <link href="../css/cover.css" rel="stylesheet">
+    <style type="text/css">
+    	html, body {
+    		height: 100%;
+    		margin 0;
+    	}
+    	#wrapper {
+    		min-height:100%;
+    	}
+    </style>
   </head>
   <body>
     <header>
@@ -42,13 +51,13 @@
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container marketing">
+      <div id="wrapper">
         <!-- START THE FEATURETTES -->
 			<div class="city image">
 			</div>
-			<div class = "text">
-				<h1> New York</h1>
-				<p>New York is an urban jungle that has everything to offer to visitors. The city is home to numerous museums, parks, trendy neighborhoods and shopping streets. </p>			
+			<div id="">
+				<h1 align="center" style="color:white;"> New York</h1>
+				<p align="center" style="color:white;">New York is an urban jungle that has everything to offer to visitors. The city is home to numerous museums, parks, trendy neighborhoods and shopping streets. </p>			
 			</div>
         <!-- /END THE FEATURETTES -->
       </div><!-- /.container -->

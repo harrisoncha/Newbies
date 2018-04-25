@@ -81,11 +81,11 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">About Us</h2>
+            <p class="lead">NEWBIES is dedicated to helping you explore and/or acclimate to a new area. Using a combination of different API's, such as your Facebook friend's list, you are able to search and be referred to local areas that are positive, relaxing, and enjoyable experiences for you.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="../img/beerImage.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -93,11 +93,11 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">About Us <span class="text-muted">Continued</span></h2>
+            <p class="lead">NEWBIES was founded on January 22, 2015 by four undergraduate USC students majoring in CS/BA. Their main goal was to help international students adjust to living in a major city in a different country, but saw the potential it had to help more than just them. Today, we are proud to say we have five supporters!</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="../img/pizzaImage.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
