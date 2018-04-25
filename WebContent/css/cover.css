@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+.container {
+	
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -17,22 +21,26 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 4rem;
+  z-index: 10;
+}
+
+.carousel-caption2 {
+  bottom: 6rem;
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 40rem;
+  height: 26rem;
   background-color: #777;
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
-  align: center;
   min-width: 100%;
-  height: 100%;
+  height: 26rem;
 }
 
 
@@ -88,4 +96,30 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.main_image {
+	background-image: url("../img/mainSnack.jpg");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.city_image {
+	background-image: url("https://cdn.viewing.nyc/assets/media/baf9bbb23f8b9f2e8f7ee1c4b57c88d4/elements/caebb9b64f81817fe47194f9aad941c5/9eeb4bcc-5da5-4612-a737-3ee1b57d08dc.jpg");
+	
+	/* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.city {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
