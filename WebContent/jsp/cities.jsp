@@ -54,10 +54,10 @@
       <div id="wrapper">
         <!-- START THE FEATURETTES -->
 			<div class="city image">
-			</div>
-			<div id="">
-				<h1 align="center" style="color:white;"> New York</h1>
-				<p align="center" style="color:white;">New York is an urban jungle that has everything to offer to visitors. The city is home to numerous museums, parks, trendy neighborhoods and shopping streets. </p>			
+				<div class="caption_1">
+					<span class="border">New York</span><br>
+	    			<!-- New York is an urban jungle that has everything to offer to visitors. The city is home to numerous museums, parks, trendy neighborhoods and shopping streets. -->
+				</div>
 			</div>
         <!-- /END THE FEATURETTES -->
       </div><!-- /.container -->
