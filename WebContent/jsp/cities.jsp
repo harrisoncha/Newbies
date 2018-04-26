@@ -57,7 +57,9 @@
       
 			<div class="city image">
 				<div class="caption_1">
-					<span class="border">New York</span><br>
+					<span class="border">New York</span><br><br><br>
+					
+					<span class="border">Coming Soon</span><br>
 				</div>
 			</div>
 
